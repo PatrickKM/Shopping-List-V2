@@ -6,7 +6,10 @@ const filesToCache = [
   "/style.css",
   "/script.js",
   "/offline.html",
-  "/shop-store.js"
+  "/indexedDb.js",
+  "/indexedScript.js",
+  "/OneSignalSDKUpdaterWorker.js",
+  "/OneSignalSDKWorker.js"
 ];
 
 //const staticCacheName = 'pages-cache-v1';
