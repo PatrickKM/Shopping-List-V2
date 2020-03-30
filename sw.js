@@ -1,19 +1,15 @@
-importScripts("/shop-store.js");
+
 
 const filesToCache = [
   "/",
   "/index.html",
   "/style.css",
   "/script.js",
-  "/offline.html",
-  "/indexedDb.js",
-  "/indexedScript.js",
-  "/OneSignalSDKUpdaterWorker.js",
-  "/OneSignalSDKWorker.js"
+  "/offline.html"
 ];
 
 //const staticCacheName = 'pages-cache-v1';
-var staticCacheName = "shoplist-v4";
+var staticCacheName = "shoplist-v3";
 
 self.addEventListener("install", event => {
   console.log("Attempting to install service worker and cache static assets");
