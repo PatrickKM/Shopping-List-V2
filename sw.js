@@ -7,9 +7,7 @@ const filesToCache = [
   "/script.js",
   "/offline.html",
   "/indexedDb.js",
-  "/indexedScript.js",
-  "/OneSignalSDKUpdaterWorker.js",
-  "/OneSignalSDKWorker.js"
+  "/indexedScript.js"
 ];
 
 //const staticCacheName = 'pages-cache-v1';
