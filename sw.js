@@ -2,8 +2,7 @@ const filesToCache = [
   "/",
   "/index.html",
   "/style.css",
-  "/script.js",
-  "/offline.html"
+  "/script.js"
 ];
 
 //const staticCacheName = 'pages-cache-v1';
