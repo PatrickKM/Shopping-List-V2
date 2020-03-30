@@ -6,6 +6,8 @@ const filesToCache = [
   "/style.css",
   "/script.js",
   "/offline.html",
+  "/indexedDb.js",
+  "/indexedScript.js",
   "/OneSignalSDKUpdaterWorker.js",
   "/OneSignalSDKWorker.js"
 ];
