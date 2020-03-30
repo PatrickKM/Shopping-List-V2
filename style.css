@@ -107,3 +107,22 @@ input[type="checkbox"] {
 	top: 0;
 	right: 0;
 }
+
+/* Add To Home Screen Prompt Button */
+
+.add-button {
+	margin: 1em auto 1em auto;
+  }
+  
+  .container {
+	padding-right: 0;
+	padding-left: 0;
+  }
+  
+  @media (orientation: landscape) {
+	img {
+	  height: 100%;
+	  object-fit: cover;
+	}
+  }
+  
