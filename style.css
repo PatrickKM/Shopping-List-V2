@@ -1,0 +1,109 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	color: #545454;
+	background: #F7F7F7;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+/* Remove margins and padding from the list */
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* Style the list items */
+
+ul li {
+	position: relative;
+	padding: 12px 8px 12px 40px;
+	background: #eee;
+	font-size: 18px;
+	transition: 0.2s;
+	/* make the list items unselectable */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+
+ul li:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+/* When clicked on, add a background color and strike out text */
+
+ul li.checked {
+	background: #888;
+	color: #fff;
+	text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+
+ul li.checked::before {
+	content: "";
+	position: absolute;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	top: 15px;
+	left: 16px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
+
+#page-wrapper {
+	width: 550px;
+	margin: 2.5em auto;
+	background: #FFF;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+}
+
+#new-shop-form {
+	padding: 30px 40px;
+	background: #30790f;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#new-shop-form h2 {
+	text-align: center;
+}
+
+#new-shop {
+	width: 100%;
+	padding: 0.5em;
+	font-size: 1em;
+	border-radius: 3px;
+	border: 0;
+}
+
+input[type="checkbox"] {
+	cursor: pointer;
+	margin: 1.05em;
+	position: absolute;
+	top: 0;
+	right: 0;
+}

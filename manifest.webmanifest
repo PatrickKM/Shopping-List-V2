@@ -1,0 +1,17 @@
+{
+    "name": "Shopping List",
+    "short_name": "Shoplist",
+    "description": "A Shopping List using PWA Technology",
+    "theme_color": "#095d9f",
+    "background_color": "#818181",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "icons/shoplist.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "portrait",
+    "start_url": "/Shoplist/index.html"
+}
