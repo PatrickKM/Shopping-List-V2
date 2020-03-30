@@ -13,7 +13,7 @@ const filesToCache = [
 ];
 
 //const staticCacheName = 'pages-cache-v1';
-var staticCacheName = "shoplist-v3";
+var staticCacheName = "shoplist-v4";
 
 self.addEventListener("install", event => {
   console.log("Attempting to install service worker and cache static assets");
